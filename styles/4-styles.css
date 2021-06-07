@@ -1,24 +1,27 @@
 /* FONT: 'Source Sans Pro' */
 /* ----------------------- */
 @font-face {
-  font-family: 'Source Sans Pro';
-  src: url("../../assets/font/SourceSansPro-Light.woff2") format("woff2"), url("../../assets/font/SourceSansPro-Light.woff") format("woff");
+  font-family: "Source Sans Pro";
+  src: url("../../assets/font/SourceSansPro-Light.woff2") format("woff2"),
+    url("../../assets/font/SourceSansPro-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Source Sans Pro';
-  src: url("../../assets/font/SourceSansPro-Regular.woff2") format("woff2"), url("../../assets/font/SourceSansPro-Regular.woff") format("woff");
+  font-family: "Source Sans Pro";
+  src: url("../../assets/font/SourceSansPro-Regular.woff2") format("woff2"),
+    url("../../assets/font/SourceSansPro-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Source Sans Pro';
-  src: url("../../assets/font/SourceSansPro-Bold.woff2") format("woff2"), url("../../assets/font/SourceSansPro-Bold.woff") format("woff");
+  font-family: "Source Sans Pro";
+  src: url("../../assets/font/SourceSansPro-Bold.woff2") format("woff2"),
+    url("../../assets/font/SourceSansPro-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -27,8 +30,9 @@
 /* FONT: 'Spin Cycle 3d Ot' */
 /* ------------------------ */
 @font-face {
-  font-family: 'Spin Cycle 3d Ot';
-  src: url("../../assets/font/SpinCycle3DOT.woff") format("woff"), url("../../assets/font/SpinCycle3DOT.woff2") format("woff2");
+  font-family: "Spin Cycle 3d Ot";
+  src: url("../../assets/font/SpinCycle3DOT.woff") format("woff"),
+    url("../../assets/font/SpinCycle3DOT.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -37,15 +41,17 @@
 /* FONT: 'Spin Cycle Ot (it's NOT 3d !)' */
 /* ------------------------ */
 @font-face {
-  font-family: 'Spin Cycle Ot';
-  src: url("../../assets/font/SpinCycleOT.woff") format("woff"), url("../../assets/font/SpinCycleOT.woff2") format("woff2");
+  font-family: "Spin Cycle Ot";
+  src: url("../../assets/font/SpinCycleOT.woff") format("woff"),
+    url("../../assets/font/SpinCycleOT.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 * {
-  font-family: 'Source Sans Pro', Arial,  Helvetica,  sans-serif, 'Spin Cicle Ot',  'Spin Cycle 3d Ot';
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif, "Spin Cicle Ot",
+    "Spin Cycle 3d Ot";
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -105,8 +111,9 @@
   transition: all 0.2s ease-in-out;
 }
 
-.header__burger__line::before, .header__burger__line::after {
-  content: '';
+.header__burger__line::before,
+.header__burger__line::after {
+  content: "";
   position: absolute;
   width: 20px;
   height: 2px;
@@ -167,7 +174,7 @@
 }
 
 .header__menu__a:hover {
-  color: #FF6565;
+  color: #ff6565;
   transition: all 0.2s ease-in-out;
 }
 
@@ -199,7 +206,8 @@
   align-items: center;
 }
 
-.hero__title, .hero__subtitle {
+.hero__title,
+.hero__subtitle {
   font-weight: bold;
   text-align: center;
   color: white;
@@ -222,7 +230,7 @@
   padding: 13px 31px;
   border-radius: 22px;
   text-decoration: none;
-  background-color: #FF6565;
+  background-color: #ff6565;
   /* ---------------------------- */
   font-weight: bold;
   font-size: 14px;
@@ -235,7 +243,7 @@
 
 .hero__button:hover {
   background-color: white;
-  color: #FF6565;
+  color: #ff6565;
   transition: all 0.2s ease-in-out;
 }
 
@@ -401,7 +409,8 @@
     flex-wrap: wrap;
     justify-content: space-between;
   }
-  .we-do-cards__card:nth-child(3), .we-do-cards__card:nth-child(4) {
+  .we-do-cards__card:nth-child(3),
+  .we-do-cards__card:nth-child(4) {
     margin-top: 0;
     margin-bottom: 96px;
   }
@@ -423,7 +432,8 @@
     margin-top: 96px;
     margin-bottom: 0;
   }
-  .we-do-cards__card:nth-child(3), .we-do-cards__card:nth-child(4) {
+  .we-do-cards__card:nth-child(3),
+  .we-do-cards__card:nth-child(4) {
     margin-top: 96px;
     margin-bottom: 0;
   }
@@ -472,7 +482,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(360deg, #071629 0%, #071629 62%, rgba(91, 191, 184, 0) 100%);
+  background: linear-gradient(
+    360deg,
+    #071629 0%,
+    #071629 62%,
+    rgba(91, 191, 184, 0) 100%
+  );
   padding-top: 77px;
 }
 
@@ -520,7 +535,8 @@
     flex-wrap: wrap;
     justify-content: center;
   }
-  .results-cards__card:nth-child(1), .results-cards__card:nth-child(3) {
+  .results-cards__card:nth-child(1),
+  .results-cards__card:nth-child(3) {
     margin-left: 24px;
     margin-right: 76px;
   }
@@ -536,13 +552,18 @@
   .results-cards {
     padding-bottom: 79px;
   }
-  .results-cards__card:nth-child(1), .results-cards__card:nth-child(2), .results-cards__card:nth-child(3), .results-cards__card:nth-child(4) {
+  .results-cards__card:nth-child(1),
+  .results-cards__card:nth-child(2),
+  .results-cards__card:nth-child(3),
+  .results-cards__card:nth-child(4) {
     margin: 0px;
   }
 }
 
 @media only screen and (min-width: 900px) {
-  .results-cards__card:nth-child(1), .results-cards__card:nth-child(2), .results-cards__card:nth-child(3) {
+  .results-cards__card:nth-child(1),
+  .results-cards__card:nth-child(2),
+  .results-cards__card:nth-child(3) {
     margin-right: 15px;
   }
   .results-cards__card:last-child {
@@ -551,13 +572,17 @@
 }
 
 @media only screen and (min-width: 1200px) {
-  .results-cards__card:nth-child(1), .results-cards__card:nth-child(2), .results-cards__card:nth-child(3) {
+  .results-cards__card:nth-child(1),
+  .results-cards__card:nth-child(2),
+  .results-cards__card:nth-child(3) {
     margin-right: 45px;
   }
 }
 
 @media only screen and (min-width: 1400px) {
-  .results-cards__card:nth-child(1), .results-cards__card:nth-child(2), .results-cards__card:nth-child(3) {
+  .results-cards__card:nth-child(1),
+  .results-cards__card:nth-child(2),
+  .results-cards__card:nth-child(3) {
     margin-right: 76px;
   }
 }
@@ -606,7 +631,7 @@
 }
 
 .contact-us__form__submit {
-  background-color: #FF6565;
+  background-color: #ff6565;
   padding: 13px 31px 13px 31px;
   border: none;
   border-radius: 22px;
@@ -622,8 +647,8 @@
 
 .contact-us__form__submit:hover {
   background-color: white;
-  color: #FF6565;
-  box-shadow: 0 0 10px #FF6565;
+  color: #ff6565;
+  box-shadow: 0 0 10px #ff6565;
   transition: all 0.2s ease-in-out;
 }
 
@@ -668,7 +693,7 @@
 .footer__end-text {
   font-size: 12px;
   line-height: 15px;
-  color: #FFFFFF;
+  color: #ffffff;
   mix-blend-mode: normal;
   opacity: 0.35;
   position: absolute;

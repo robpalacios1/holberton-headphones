@@ -1,24 +1,27 @@
 /* FONT: 'Source Sans Pro' */
 /* ----------------------- */
 @font-face {
-  font-family: 'Source Sans Pro';
-  src: url("../../assets/font/SourceSansPro-Light.woff2") format("woff2"), url("../../assets/font/SourceSansPro-Light.woff") format("woff");
+  font-family: "Source Sans Pro";
+  src: url("../../assets/font/SourceSansPro-Light.woff2") format("woff2"),
+    url("../../assets/font/SourceSansPro-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Source Sans Pro';
-  src: url("../../assets/font/SourceSansPro-Regular.woff2") format("woff2"), url("../../assets/font/SourceSansPro-Regular.woff") format("woff");
+  font-family: "Source Sans Pro";
+  src: url("../../assets/font/SourceSansPro-Regular.woff2") format("woff2"),
+    url("../../assets/font/SourceSansPro-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Source Sans Pro';
-  src: url("../../assets/font/SourceSansPro-Bold.woff2") format("woff2"), url("../../assets/font/SourceSansPro-Bold.woff") format("woff");
+  font-family: "Source Sans Pro";
+  src: url("../../assets/font/SourceSansPro-Bold.woff2") format("woff2"),
+    url("../../assets/font/SourceSansPro-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -27,8 +30,9 @@
 /* FONT: 'Spin Cycle 3d Ot' */
 /* ------------------------ */
 @font-face {
-  font-family: 'Spin Cycle 3d Ot';
-  src: url("../../assets/font/SpinCycle3DOT.woff") format("woff"), url("../../assets/font/SpinCycle3DOT.woff2") format("woff2");
+  font-family: "Spin Cycle 3d Ot";
+  src: url("../../assets/font/SpinCycle3DOT.woff") format("woff"),
+    url("../../assets/font/SpinCycle3DOT.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -37,15 +41,17 @@
 /* FONT: 'Spin Cycle Ot (it's NOT 3d !)' */
 /* ------------------------ */
 @font-face {
-  font-family: 'Spin Cycle Ot';
-  src: url("../../assets/font/SpinCycleOT.woff") format("woff"), url("../../assets/font/SpinCycleOT.woff2") format("woff2");
+  font-family: "Spin Cycle Ot";
+  src: url("../../assets/font/SpinCycleOT.woff") format("woff"),
+    url("../../assets/font/SpinCycleOT.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 * {
-  font-family: 'Source Sans Pro', Arial,  Helvetica,  sans-serif, 'Spin Cicle Ot',  'Spin Cycle 3d Ot';
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif, "Spin Cicle Ot",
+    "Spin Cycle 3d Ot";
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -105,8 +111,9 @@
   transition: all 0.2s ease-in-out;
 }
 
-.header__burger__line::before, .header__burger__line::after {
-  content: '';
+.header__burger__line::before,
+.header__burger__line::after {
+  content: "";
   position: absolute;
   width: 20px;
   height: 2px;
@@ -167,7 +174,7 @@
 }
 
 .header__menu__a:hover {
-  color: #FF6565;
+  color: #ff6565;
   transition: all 0.2s ease-in-out;
 }
 
@@ -199,7 +206,8 @@
   align-items: center;
 }
 
-.hero__title, .hero__subtitle {
+.hero__title,
+.hero__subtitle {
   font-weight: bold;
   text-align: center;
   color: white;
@@ -222,7 +230,7 @@
   padding: 13px 31px;
   border-radius: 22px;
   text-decoration: none;
-  background-color: #FF6565;
+  background-color: #ff6565;
   /* ---------------------------- */
   font-weight: bold;
   font-size: 14px;
@@ -235,7 +243,7 @@
 
 .hero__button:hover {
   background-color: white;
-  color: #FF6565;
+  color: #ff6565;
   transition: all 0.2s ease-in-out;
 }
 
